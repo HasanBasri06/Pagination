@@ -1,0 +1,32 @@
+table{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#geri,#ileri{
+    transition: .2s;
+}
+#geri:hover,#ileri:hover{
+    color: white;
+    text-shadow: 0 0 0.3em white;
+}
+.pag a{
+    padding: 0 15px;
+}
+.pagShow{
+    margin: 1px auto;
+    margin-top: 10px;
+    width: 75%;
+    height: 35px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    line-height: 35px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.pagSiz{
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
